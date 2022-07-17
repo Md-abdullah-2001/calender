@@ -1,0 +1,32 @@
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 50px repeat(5,75px);
+    row-gap: 10px;
+    column-gap: 20px;
+    
+}
+.date , .day{
+    background-color: indigo;
+    color:#fff;
+    font-size: 2em;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.day{
+    background-color: rgb(139, 143, 143);
+    font-size: 1em;
+}
+.other-month{
+    background-color: rgb(142, 163, 201);
+  
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: coral;
+    text-transform: uppercase;
+}
